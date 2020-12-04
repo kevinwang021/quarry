@@ -1,19 +1,18 @@
-![Quarry Logo](https://d3d7bn43j8qgcg.cloudfront.net/quarry_logo.png)
-
 ## About
+Fork from https://github.com/normanjoyner/quarry
 
 ### Description
 A rock solid, dynamic DNS server with swappable backends and CRUD API. Start Quarry with one of the available persistence layers and manage records and forwarders through the API. Quarry can also be accessed programmatically by requiring it in your code!
 
 ### Author
-ContainerShip Developers - developers@containership.io
+Kevin Wang - kevinwang021@gmail.com
 
 ## Getting Started
 
 ### Installing
-Run ```npm install -g quarry-dns``` to install Quarry as an executable
+Run ```npm install -g quarry-dns2``` to install Quarry as an executable
 
-Run ```npm install quarry-dns --save``` to install Quarry as a required module for your application
+Run ```npm install quarry-dns2 --save``` to install Quarry as a required module for your application
 
 ## Features
 
@@ -90,7 +89,7 @@ When requiring Quarry as a module, records and forwarders are managed through ex
 
 ### Module
 ```javascript
-var Quarry = require("quarry-dns");
+var Quarry = require("quarry-dns2");
 var quarry = new Quarry({
     persistence: "memory"
 });

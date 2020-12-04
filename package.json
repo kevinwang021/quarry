@@ -1,6 +1,6 @@
 {
-  "name": "quarry-dns",
-  "version": "0.6.2",
+  "name": "quarry-dns2",
+  "version": "1.0",
   "description": "A rock solid, dynamic DNS server with swappable backends and CRUD API",
   "main": "application.js",
   "engines": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/containership/quarry.git"
+    "url": "https://github.com/kevinwang021/quarry.git"
   },
   "keywords": [
     "dns",
@@ -24,12 +24,12 @@
     "mongo",
     "disk"
   ],
-  "author": "ContainerShip Developers <developers@containership.io>",
+  "author": "Kevin Wang <kevinwang021@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/containership/quarry/issues"
+    "url": "https://github.com/kevinwang021/quarry/issues"
   },
-  "homepage": "https://github.com/containership/quarry",
+  "homepage": "https://github.com/kevinwang021/quarry",
   "dependencies": {
     "async": "^0.9.0",
     "aws-sdk": "^2.0.30",
