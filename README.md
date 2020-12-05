@@ -170,6 +170,18 @@ quarry.persistence.create_record("www.domain.com", { address: "1.2.3.4", type: "
 });
 ```
 
+#### Create wildcard Record
+```javascript
+quarry.persistence.create_record("*ds.domain.com", { address: "1.2.3.4", type: "A", ttl: 60 }, function(err){
+    if(err)
+        throw err;
+});
+quarry.persistence.create_record("*.ds.domain.com", { address: "1.2.3.4", type: "A", ttl: 60 }, function(err){
+    if(err)
+        throw err;
+});
+```
+
 #### Update Record
 ```javascript
 quarry.persistence.update_record("www.domain.com", { address: ["1.2.3.4", "5.6.7.8"], type: "A", ttl: 60 }, function(err){
