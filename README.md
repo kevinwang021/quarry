@@ -172,7 +172,7 @@ quarry.persistence.create_record("www.domain.com", { address: "1.2.3.4", type: "
 
 #### Create wildcard Record
 ```javascript
-quarry.persistence.create_record("*ds.domain.com", { address: "1.2.3.4", type: "A", ttl: 60 }, function(err){
+quarry.persistence.create_record("ds.domain.com", { address: "1.2.3.4", type: "A", ttl: 60 }, function(err){
     if(err)
         throw err;
 });
